@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background="color: #87ceeb">
+            <a-entity position="0 0 20">
+                <a-camera></a-camera>
+            </a-entity>
+
+            <a-entity postition="0 0 0" rotation="0 0 0">
+                <a-cylinder color="yellow" position="0 10.5 0" radius="0.1" scale="2 2 2"></a-cylinder>
+                <a-cylinder color="yellow" position="0 11.5 0" radius="0.05" rotation="0 0 90" scale="2 2 2"></a-cylinder>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-sphere color="blue" position="0 6.5 0" radius="3">
+                    <a-torus radius-tubular="0.019" color="yellow" rotation="0 0 195" segment-tubular="1" radius="1" position="0 -1 2.5" arc="150"></a-torus>
+                </a-sphere>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotaition="0 0 0">
+                <a-sphere radius="1" position="0.8 7 1.9"></a-sphere>
+                <a-sphere radius="1" position="-0.8 7 1.9"></a-sphere>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-sphere radius="0.15" position="1 7 2.9"color=black ></a-sphere>
+                <a-sphere radius="0.15" position="-1 7 2.9" color="black"></a-sphere>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-box color="blue" position="0 -0.5 0" scale="8 8 8"></a-box>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-cylinder color="orange" position="-2 -7 0" scale="1 4 1"></a-cylinder>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-cylinder color="orange" position="2 -7 0" scale="1 4 1"></a-cylinder>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-box position="-2 -10 1" color="red" scale="2 2 3.7"></a-box>
+            </a-entity>
+
+            <a-entity position="0 0 0" rotation="0 0 0">
+                <a-box position="2 -10 1" color="red" scale="2 2 3.7"></a-box>
+            </a-entity>
+
+            <a-entity position="0 0 0 " rotation="0 0 0">
+                <a-entity position="0 0 0 " rotation="0 0 0">
+                    <a-cylinder position="-6 1.5 0" rotation="0 0 130" radius="0.5" scale="1.5 4 1.5" color="orange"></a-cylinder>
+                    <a-sphere position="-7.8 0 0" radius="0.8" color="red"></a-sphere>
+                </a-entity>
+                <a-entity position="0 0 0 " rotation="0 0 0">
+                    <a-cylinder position="-9.5 1 0" rotation="0 0 60" radius="0.5" scale="1.5 4 1.5" color="orange"></a-cylinder>
+                    <a-dodecahedron position="-12 2.5 0" color="green" scale="1.5 1.5 1.5"></a-dodecahedron>
+                </a-entity>
+            </a-entity>
+
+            <a-entity position="0 0 0 " rotation="0 0 0">
+                <a-entity position="0 0 0 " rotation="0 0 0"></a-entity>
+                    <a-cylinder position="6 1.5 0" rotation="0 0 230" radius="0.5" scale="1.5 4 1.5" color="orange"></a-cylinder>
+                    <a-sphere position="7.8 0 0" radius="0.8" color="red"></a-sphere>
+                </a-entity>
+                <a-entity position="0 0 0 " rotation="0 0 0"></a-entity>
+                    <a-cylinder position="9.5 1 0" rotation="0 0 300" radius="0.5" scale="1.5 4 1.5" color="orange"></a-cylinder>
+                    <a-dodecahedron position="12 2.5 0" color="green" scale="1.5 1.5 1.5"></a-dodecahedron>
+                </a-entity>   
+            </a-entity>
+        </a-scene>
+    </body>
+</html>
